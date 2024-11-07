@@ -6,11 +6,11 @@ Keep in mind, I am not an expert at this.
 
 Here are the Technologies/Languages I Used:
 
-a. HTML
-b. CSS
-c. JavaScript 
-d. JQuery (A JS Library I guess?)
-e. Canva (For the Images)
+1. HTML
+2. CSS
+3. JavaScript 
+4. JQuery (A JS Library I guess?)
+5. Canva (For the Images)
 
 
 The rules of the game are simple:
