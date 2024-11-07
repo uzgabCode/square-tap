@@ -1,0 +1,308 @@
+/* 
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+    Page 1: If the game is ongoing!
+    The following shall execute before the game stops!
+    -----------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------- 
+*/
+
+
+/* If the min-width is 900px and the max-width is 1200px! */
+@media (min-width: 900px) and (max-width: 1200px) {
+    #score {
+        font-size: 2rem;
+        margin: 30px;
+    }
+}
+
+
+/* If the min-width is 900px and the max-width is 1200px! */
+@media (min-width: 670px) and (max-width: 900px) {
+    #score {
+        font-size: 2rem;
+        margin: 30px;
+    }
+}
+
+
+
+/* If the min-width is 500px and the max-width is 670px! */
+@media (min-width: 500px) and (max-width: 670px) {
+    #score {
+        font-size: 1.5rem;
+        margin: 25px;
+    }
+
+    .squares {
+        grid-template-columns: repeat(5, 70px);
+        gap: 13.125px;
+    }
+
+    .squares > div {
+        width: 70px;
+        height: 70px;
+        border-radius: 9px;
+    }
+
+    #time, .lives > p {
+        font-size: 1rem;
+    }
+}
+
+
+/* If the min-width is 400px and the max-width is 500px! */
+@media (min-width: 400px) and (max-width: 500px) {
+    #score {
+        font-size: 1.25rem;
+        margin: 25px;
+    }
+
+    .squares {
+        grid-template-columns: repeat(5, 60px);
+        gap: 12px;
+    }
+
+    .squares > div {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    #time {
+        font-size: 1rem;
+    }
+
+    .lives > p {
+        display: none;
+    }
+}
+
+
+/* If the min-width is 340px and the max-width is 400px! */
+@media (min-width: 340px) and (max-width: 400px) {
+    #score {
+        font-size: 1.25rem;
+        margin: 25px;
+    }
+
+    #heart1, #heart2, #heart3 {
+        width: 40px;
+    }
+
+    .squares {
+        grid-template-columns: repeat(5, 50px);
+        gap: 9.375px;
+    }
+
+    .squares > div {
+        width: 50px;
+        height: 50px;
+        border-radius: 7px;
+    }
+
+    #time {
+        font-size: 1rem;
+    }
+
+    .lives > p {
+        display: none;
+    }
+}
+
+
+/* If the min-width is 280px and the max-width is 340px! */
+@media (min-width: 280px) and (max-width: 340px) {
+    #score {
+        font-size: 1.25rem;
+        margin: 25px;
+    }
+
+    .squares {
+        grid-template-columns: repeat(5, 40px);
+        gap: 7.5px;
+    }
+
+    #heart1, #heart2, #heart3 {
+        width: 30px;
+    }
+
+    .squares > div {
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+    }
+
+    #time {
+        font-size: 1rem;
+    }
+
+    .lives > p {
+        display: none;
+    }
+}
+
+
+/* If the max-width is 280px! */
+@media (max-width: 280px) {
+    #score {
+        font-size: 1rem;
+        margin: 25px;
+    }
+
+    .squares {
+        grid-template-columns: repeat(5, 30px);
+        gap: 5.625px;
+    }
+
+    #heart1, #heart2, #heart3 {
+        width: 20px;
+    }
+
+    .squares > div {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    #time {
+        font-size: 0.75rem;
+    }
+
+    .lives > p {
+        display: none;
+    }
+
+    .lives > img {
+        width: 30px;
+    }
+}
+
+
+/* 
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+    Page: 2 - [DISPLAYING RESULTS] ->
+    NOW THE REST WILL EXECUTE IF THE GAME HAS STOPPED FOR EXAMPLE:
+        a. The game stops after the timer runs out of time.
+        b. If the user clicked any grey square 3 times.
+    -----------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------- 
+*/
+
+
+/* If the min-width is 900px and the max-width is 1200px! */
+@media (min-width: 900px) and (max-width: 1200px) {
+    #finalScore {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+}
+
+
+/* If the min-width is 750px and the max-width is 900px! */
+@media (min-width: 750px) and (max-width: 900px) {
+    #finalScore {
+        font-size: 2rem;
+    }
+
+    #no, #retry {
+        width: 150px;
+        margin: 0px 11px;
+    }
+
+    #yes, #exit {
+        width: 149.5px;
+        margin: 0px 11px;
+    }
+}
+
+
+/* If the min-width is 500px and the max-width is 750px! */
+@media (min-width: 500px) and (max-width: 750px) {
+    #finalScore {
+        font-size: 1.5rem;
+    }
+
+    #no, #retry {
+        width: 130px;
+        margin: 0px 8px;
+    }
+
+    #yes, #exit {
+        width: 128.7px;
+        margin: 0px 8px;
+    }
+}
+
+
+/* If the min-width is 425px and the max-width is 500px! */
+@media (min-width: 425px) and (max-width: 500px) {
+    #finalScore {
+        font-size: 1.25rem;
+    }
+
+    #no, #retry {
+        width: 120px;
+        margin: 0px 6px;
+    }
+
+    #yes, #exit {
+        width: 119px;
+        margin: 0px 6px;
+    }
+}
+
+
+/* If the min-width is 375px and the max-width is 425px! */
+@media (min-width: 375px) and (max-width: 425px) {
+    #finalScore {
+        font-size: 1rem;
+    }
+
+    #no, #retry {
+        width: 100px;
+        margin: 0px 5px;
+    }
+
+    #yes, #exit {
+        width: 99px;
+        margin: 0px 5px;
+    }
+}
+
+
+/* If the min-width is 250px and the max-width is 375px! */
+@media (min-width: 250px) and (max-width: 375px) {
+    #finalScore {
+        font-size: 0.75rem;
+    }
+
+    #no, #retry {
+        width: 80px;
+        margin: 0px 3px;
+    }
+
+    #yes, #exit {
+        width: 79px;
+        margin: 0px 3px;
+    }
+}
+
+
+/* If the max-width is 250px! */
+@media (max-width: 250px) {
+    #finalScore {
+        font-size: 0.75rem;
+    }
+
+    #no, #retry {
+        width: 80px;
+        margin: 2px;
+    }
+
+    #yes, #exit {
+        width: 79px;
+        margin: 2px;
+    }
+}

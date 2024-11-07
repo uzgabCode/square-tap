@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Tap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css-files/square-tap-gameplay-style.css">
+    <link rel="stylesheet" href="../css-files/square-tap-gameplay-media-queries.css">
+</head>
+<body>
+    <!-- Display the time and lives left: -->
+    <div class="time-lives">
+        <p id="time">TIME: 60</p>
+        <div class="lives">
+            <p>LIVES: </p>
+            <img src="../images/heart.png" alt="" id="heart1" width="50px">
+            <img src="../images/heart.png" alt="" id="heart2" width="50px">
+            <img src="../images/heart.png" alt="" id="heart3" width="50px">
+        </div>
+    </div>
+    
+    <!-- Instructions and score at the same time: -->
+    <h1 style="text-align: center; vertical-align: top;" id="score">PRESS ORANGE SQUARE TO START</h1>
+
+    <!-- These are the squares to click: [CLICK ORANGE PLS!] -->
+    <div class="center-squares">
+        <div class="squares">
+            <div class="s1"></div>
+            <div class="s2"></div>
+            <div class="s3"></div>
+            <div class="s4"></div>
+            <div class="s5"></div>
+    
+            <div class="s6"></div>
+            <div class="s7"></div>
+            <div class="s8"></div>
+            <div class="s9"></div>
+            <div class="s10"></div>
+    
+            <div class="s11"></div>
+            <div class="s12"></div>
+            <div class="s13"></div>
+            <div class="s14"></div>
+            <div class="s15"></div>
+    
+            <div class="s16"></div>
+            <div class="s17"></div>
+            <div class="s18"></div>
+            <div class="s19"></div>
+            <div class="s20"></div>
+            
+            <div class="s21"></div>
+            <div class="s22"></div>
+            <div class="s23"></div>
+            <div class="s24"></div>
+            <div class="s25"></div>
+        </div>
+    </div>
+
+    <!-- Display the score when timer runs out: -->
+    <div class="center-finalScore">
+        <p id="finalScore">YOUR SCORE IS: 0</p>
+        <div class="gameOverBtns">
+            <img src="../images/no.png" width="200px" alt="Yes Button Image" id="no">
+            <img src="../images/yes.png" width="198px" alt="No Button Image" id="yes">
+        </div>
+        <div class="secondMenu">
+            <img src="../images/retry.png" width="200px" alt="Retry Button Image" id="retry">
+            <img src="../images/exit.png" width="198px" alt="Home Button Image" id="exit">
+        </div>
+    </div>
+
+
+    <!-- Add the following script tags for JavaScript and JQuery Functionality: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js-files/square-tap-gameplay-script.js"></script>
+</body>
+</html>

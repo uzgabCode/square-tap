@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Tap</title>
+    <link rel="stylesheet" href="../css-files/square-tap-home-style.css">
+    <link rel="stylesheet" href="../css-files/square-tap-home-media-queries.css">
+</head>
+<body>
+
+    <!-- Set up the home page-->
+    <img src="../images/square-tap-header.png" alt="Square Tap Header Image" class="header">
+    <img src="../images/square-tap-play-btn.png" alt="Square Tap Play Button" class="playBtn">
+    
+    <!-- Set up the following scripts: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        function moveToNextPage() {
+            window.location.href = "square-tap-tutorial.html";
+        }
+
+        $(".playBtn").click(moveToNextPage)
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    width: 800px;
+}
+
+.playBtn {
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+/* If the max-height is set to 575px! */
+@media (max-height: 575px) {
+    .playBtn {
+        width: 200px;
+    }
+
+    .header {
+        width: 600px;
+    }
+}
+
+
+/* If the max-height is set to 355px! */
+@media (max-height: 355px) {
+    .playBtn {
+        width: 120px;
+    }
+
+    .header {
+        width: 350px;
+    }
+}
+
+
+/* If the max-width is set to 1000px! */
+@media (max-width: 1000px) {
+    .playBtn {
+        width: 200px;
+    }
+
+    .header {
+        width: 600px;
+    }
+}
+
+
+/* If the max-width is set to 1000px and max-height is set to 355px! */
+@media (max-width: 1000px) and (max-height: 355px) {
+    .playBtn {
+        width: 120px;
+    }
+
+    .header {
+        width: 350px;
+    }
+}
+
+
+/* If the max-width is set to 700px! */
+@media (max-width: 700px) {
+    .playBtn {
+        width: 120px;
+    }
+
+    .header {
+        width: 350px;
+    }
+}
+
+
+/* If the max-width is set to 400px! */
+@media (max-width: 400px) {
+    .playBtn {
+        width: 70px;
+    }
+
+    .header {
+        width: 200px;
+    }
+}
